@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <!--<configuration>-->
+        <!--<stop-on-errors>true</stop-on-errors>-->
+        <!--<date-format>MM/dd/yyyy HH:mm</date-format>-->
+        <!--<wildcard>true</wildcard>-->
+    <!--</configuration>-->
+
+    <mapping map-null="false">
+        <class-a>com.com.travel_directions.domain.Direction</class-a>
+        <class-b>com.travel_directions.shared_api.dto.DirectionDTO</class-b>
+        <field>
+            <a>code</a>
+            <b>code</b>
+        </field>
+        <field>
+            <a>airportName</a>
+            <b>fullName</b>
+        </field>
+    </mapping>
+
+</mappings>

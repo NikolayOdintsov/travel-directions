@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.travel_directions.shared_api.response;uses:="javax
+ .xml.bind.annotation",com.travel_directions.shared_api.request,com.tr
+ avel_directions.shared_api.dto
+Built-By: nickodintsov
+Build-Jdk: 1.7.0_71
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bnd-0.0.238
+Bundle-Name: Travel Directions Shared API Bundle
+Bnd-LastModified: 1430331340764
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.travel_directions.shared_api
+Import-Package: com.travel_directions.shared_api.dto,com.travel_direct
+ ions.shared_api.request,com.travel_directions.shared_api.response,jav
+ ax.xml.bind.annotation
+

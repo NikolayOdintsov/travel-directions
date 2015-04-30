@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Export-Package: com.travel_directions.service;uses:="com.travel_direct
+ ions.repository.dao,com.travel_directions.shared_api.response,javax.j
+ ws,org.springframework.beans.factory.annotation,org.dozer,com.travel_
+ directions.shared_api.request"
+Private-Package: dozer
+Built-By: nickodintsov
+Tool: Bnd-0.0.238
+Bundle-Name: Travel Directions Web Service Bundle
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0.SNAPSHOT
+Build-Jdk: 1.7.0_71
+Bnd-LastModified: 1430331538962
+Bundle-ManifestVersion: 2
+Import-Package: META-INF.cxf;version="2.7",com.travel_directions.repos
+ itory.dao,com.travel_directions.shared_api.dto,com.travel_directions.
+ shared_api.request,com.travel_directions.shared_api.response,javax.jm
+ s;version="1.1",javax.jws,javax.sql,javax.wsdl,javax.xml.namespace,or
+ g.apache.cxf.binding;version="2.7",org.apache.cxf.binding.soap;versio
+ n="2.7",org.apache.cxf.binding.soap.spring;version="2.7",org.apache.c
+ xf.bus;version="2.7",org.apache.cxf.bus.resource;version="2.7",org.ap
+ ache.cxf.bus.spring;version="2.7",org.apache.cxf.buslifecycle;version
+ ="2.7",org.apache.cxf.catalog;version="2.7",org.apache.cxf.configurat
+ ion.spring;version="2.7",org.apache.cxf.endpoint;version="2.7",org.ap
+ ache.cxf.headers;version="2.7",org.apache.cxf.jaxws.spi;version="2.7"
+ ,org.apache.cxf.phase;version="2.7",org.apache.cxf.resource;version="
+ 2.7",org.apache.cxf.transport;version="2.7",org.apache.cxf.transport.
+ http;version="2.7",org.apache.cxf.transport.http.policy;version="2.7"
+ ,org.apache.cxf.transport.http_jetty,org.apache.cxf.workqueue;version
+ ="2.7",org.apache.cxf.wsdl11;version="2.7",org.dozer,org.dozer.util,o
+ rg.springframework.beans.factory.annotation;version="3.2.4.RELEASE",o
+ rg.springframework.beans.factory.config;version="3.2.4.RELEASE"
+Bundle-SymbolicName: com.travel_directions.service
+

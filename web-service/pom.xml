@@ -184,9 +184,8 @@
                             com.travel_directions.repository.dao,
                             org.dozer,
                             org.dozer.util,
-                            javax.sql
-                            <!--org.apache.commons.dbcp,-->
-                            <!--org.springframework.stereotype-->
+                            *
+                            <!--javax.sql-->
                         </Import-Package>
                         <Include-Resource>src/main/resources</Include-Resource>
                     </instructions>
@@ -215,14 +214,14 @@
     <repositories>
 
 
-        <repository>
-            <id>i21-s3-osgi-repo</id>
-            <name>i21 osgi artifacts repo</name>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <url>http://maven.springframework.org/osgi</url>
-        </repository>
+        <!--<repository>-->
+            <!--<id>i21-s3-osgi-repo</id>-->
+            <!--<name>i21 osgi artifacts repo</name>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+            <!--</snapshots>-->
+            <!--<url>http://maven.springframework.org/osgi</url>-->
+        <!--</repository>-->
 
 
         <repository>

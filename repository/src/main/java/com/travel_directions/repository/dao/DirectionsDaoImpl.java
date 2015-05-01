@@ -65,7 +65,10 @@ public class DirectionsDaoImpl implements IDirectionsDao {
         }
         List<Direction> directions = criteria.list();
 
-        System.out.println("directions is " + directions);
+//        for (Direction direction : directions) {
+//            System.out.println("direction is " + direction.getAirportName());
+//        }
+
         return directions;
     }
 

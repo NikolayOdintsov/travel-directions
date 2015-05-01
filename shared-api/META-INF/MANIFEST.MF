@@ -7,7 +7,7 @@ Build-Jdk: 1.7.0_71
 Bundle-Version: 1.0.0.SNAPSHOT
 Tool: Bnd-0.0.238
 Bundle-Name: Travel Directions Shared API Bundle
-Bnd-LastModified: 1430331340764
+Bnd-LastModified: 1430411196449
 Created-By: Apache Maven Bundle Plugin
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.travel_directions.shared_api

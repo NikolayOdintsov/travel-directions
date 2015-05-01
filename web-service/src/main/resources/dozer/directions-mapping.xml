@@ -11,7 +11,7 @@
     <!--</configuration>-->
 
     <mapping map-null="false">
-        <class-a>com.com.travel_directions.domain.Direction</class-a>
+        <class-a>com.travel_directions.repository.domain.Direction</class-a>
         <class-b>com.travel_directions.shared_api.dto.DirectionDTO</class-b>
         <field>
             <a>code</a>

@@ -7,12 +7,11 @@ Bundle-Name: Travel Directions Data Source Bundle
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 1.0.0.SNAPSHOT
 Build-Jdk: 1.7.0_71
-Bnd-LastModified: 1430331340426
+Bnd-LastModified: 1430411196009
 Bundle-ManifestVersion: 2
 Import-Package: com.mysql.jdbc;version="5.1",javax.sql,org.aopalliance
  .aop,org.apache.commons.dbcp;version="1.4",org.springframework.aop,or
  g.springframework.aop.framework,org.springframework.beans.factory.con
- fig,org.springframework.cglib.core,org.springframework.cglib.proxy,or
- g.springframework.cglib.reflect
+ fig
 Bundle-SymbolicName: travel-directions.data-source
 

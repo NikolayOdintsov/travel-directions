@@ -4,37 +4,31 @@ Export-Package: com.travel_directions.repository.dao;uses:="org.hibern
  action.annotation,javax.sql,org.hibernate.criterion,org.springframewo
  rk.beans.factory.annotation,com.travel_directions.shared_api.request,
  org.springframework.stereotype",com.travel_directions.repository.doma
- in;uses:="javax.persistence",com.travel_directions.repository;uses:="
- com.travel_directions.repository.dao,org.springframework.context.supp
- ort,org.springframework.beans.factory.annotation,org.springframework.
- context,com.travel_directions.shared_api.request,javax.sql,com.travel
- _directions.repository.domain,org.springframework.stereotype,org.spri
- ngframework.orm.hibernate4"
+ in;uses:="javax.persistence"
 Private-Package: hibernate
 Built-By: nickodintsov
 Tool: Bnd-0.0.238
 Bundle-Name: Travel Directions Reposiroty Bundle
 Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
 Build-Jdk: 1.7.0_71
 Bundle-Version: 1.0.0.SNAPSHOT
-Bnd-LastModified: 1430378594309
+Bnd-LastModified: 1430419295072
 Bundle-ManifestVersion: 2
 Import-Package: com.mysql.jdbc;version="5.1",com.travel_directions.rep
- ository,com.travel_directions.repository.dao,com.travel_directions.re
- pository.domain,com.travel_directions.shared_api.request,javassist.ut
- il.proxy;version="[3.18,4)",javax.persistence,javax.sql,org.aopallian
- ce.aop;version="1.0",org.apache.commons.dbcp;version="1.4",org.hibern
- ate;version="4.2",org.hibernate.criterion;version="4.2",org.springfra
- mework.aop;version="[3.2,3.3)",org.springframework.aop.framework;vers
- ion="[3.2,3.3)",org.springframework.aop.framework.autoproxy;version="
- [3.2,3.3)",org.springframework.beans.factory.annotation;version="3.2.
- 4.RELEASE",org.springframework.beans.factory.config;version="3.2.4.RE
- LEASE",org.springframework.cglib.core;version="3.2.4.RELEASE",org.spr
- ingframework.cglib.proxy;version="3.2.4.RELEASE",org.springframework.
- context;version="3.2.4.RELEASE",org.springframework.context.support;v
- ersion="3.2.4.RELEASE",org.springframework.orm.hibernate4;version="[3
- .2,3.3)",org.springframework.stereotype;version="3.2.4.RELEASE",org.s
- pringframework.transaction.annotation;version="3.2.4.RELEASE"
+ ository.dao,com.travel_directions.repository.domain,com.travel_direct
+ ions.shared_api.request,javassist.util.proxy;version="[3.18,4)",javax
+ .persistence,javax.sql,org.aopalliance.aop;version="1.0",org.apache.c
+ ommons.dbcp;version="1.4",org.hibernate;version="4.2",org.hibernate.c
+ riterion;version="4.2",org.springframework.aop;version="[3.2,3.3)",or
+ g.springframework.aop.framework;version="[3.2,3.3)",org.springframewo
+ rk.aop.framework.autoproxy;version="[3.2,3.3)",org.springframework.be
+ ans.factory.annotation;version="3.2.4.RELEASE",org.springframework.be
+ ans.factory.config;version="3.2.4.RELEASE",org.springframework.cglib.
+ core;version="3.2.4.RELEASE",org.springframework.cglib.proxy;version=
+ "3.2.4.RELEASE",org.springframework.orm.hibernate4;version="[3.2,3.3)
+ ",org.springframework.stereotype;version="3.2.4.RELEASE",org.springfr
+ amework.transaction.annotation;version="3.2.4.RELEASE"
 Bundle-SymbolicName: com.travel_directions.repository
 Originally-Created-By: Apache Maven Bundle Plugin
 

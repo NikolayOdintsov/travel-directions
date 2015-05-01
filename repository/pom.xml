@@ -201,6 +201,7 @@
                             javassist.util.proxy;version="[3.18,4)",
                             *
                         </Import-Package>
+                        <!--<DynamicImport-Package>*</DynamicImport-Package>-->
                         <Bundle-SymbolicName>com.travel_directions.repository</Bundle-SymbolicName>
                     </instructions>
                 </configuration>

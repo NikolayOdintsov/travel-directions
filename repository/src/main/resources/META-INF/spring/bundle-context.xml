@@ -49,11 +49,6 @@
         </property>
 
         <property name="packagesToScan" value="com.travel_directions.repository.domain" />
-        <!--<property name="annotatedClasses">-->
-            <!--<list>-->
-                <!--<value>com.travel_directions.repository.domain.Direction</value>-->
-            <!--</list>-->
-        <!--</property>-->
 
     </bean>
 

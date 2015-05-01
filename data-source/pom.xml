@@ -79,11 +79,11 @@
                             com.mysql.jdbc,
                             org.springframework.aop,
                             org.springframework.aop.framework,
-                            org.springframework.cglib.proxy,
-                            org.springframework.cglib.core,
+                            <!--org.springframework.cglib.proxy,-->
+                            <!--org.springframework.cglib.core,-->
                             org.aopalliance.aop,
                             org.apache.commons.dbcp,
-                            org.springframework.cglib.reflect,
+                            <!--org.springframework.cglib.reflect,-->
                             javax.sql
                         </Import-Package>
                         <Include-Resource>src/main/resources</Include-Resource>
